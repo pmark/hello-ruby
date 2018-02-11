@@ -69,30 +69,23 @@ class RubyBooth extends Component {
 
   render() {
     return (
-      <div style={{height:'100%'}}>
-        <section>
-          <div className='guts' style={{background:'none'}}>
-            <RubySVG width={this.state.width} height={this.state.height} />
-          </div>
-        </section>
-        <style jsx>{`
-          section {
-            position: relative;
-            top: 70px;
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-          }
-
-          .mask {
-            position: absolute;
-          }
-
-          .guts {
-            position: absolute;
-          }
-        `}</style>
-      </div>
+      <section>
+        <div className='guts'>
+          <RubySVG width={this.state.width} height={this.state.height} />
+        </div>
+      <style jsx>{`
+        section {
+          position: relative;
+          top: 70px;
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+        }
+        .guts {
+          position: absolute;
+        }
+      `}</style>
+    </section>
     )
   }
 }

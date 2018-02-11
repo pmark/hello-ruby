@@ -17,7 +17,6 @@ class RubySVG extends Component {
   }
 
   render() {
-    console.log('this.props', this.props);
     const screenWidth = this.props.width;
     const screenHeight = this.props.height;
     const w = screenWidth * 0.8;
