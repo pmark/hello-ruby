@@ -111,11 +111,15 @@ var _default = Layout;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("./node_modules/next/node_modules/styled-jsx/style.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 var _jsxFileName = '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/Footer.js';
+
+
 
 
 (function () {
@@ -126,56 +130,23 @@ var _jsxFileName = '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/comp
 
 
 
-var linkStyle = {
-  padding: '0 25px'
-};
-
 var containerStyle = {
   marginTop: 0
 };
 
 var Footer = function Footer() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
     'div',
-    { style: containerStyle, __source: {
+    { style: containerStyle, className: 'jsx-2475250281' + ' ' + 'jsx-2475250281',
+      __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 8
       }
     },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: '/', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'a',
-        { style: linkStyle, __source: {
-            fileName: _jsxFileName,
-            lineNumber: 14
-          }
-        },
-        'Home'
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: '/about', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'a',
-        { style: linkStyle, __source: {
-            fileName: _jsxFileName,
-            lineNumber: 17
-          }
-        },
-        'About'
-      )
-    )
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+      styleId: '2475250281',
+      css: 'a.jsx-2475250281{display:block;border:1px solid red;padding:0 25px;cursor:pointer;}a.jsx-2475250281:hover{text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCb0IsQUFHMkIsQUFNTyxjQUxBLE9BTXZCLGNBTGlCLGVBQ0EsZUFDakIiLCJmaWxlIjoiY29tcG9uZW50cy9Gb290ZXIuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hbmRlcnNvbi9Qcm9qZWN0cy9NYXJ0aWFuUm92ZXIvMjAxOC9SdWJ5WW91L3dlYiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5cbmNvbnN0IGNvbnRhaW5lclN0eWxlID0ge1xuICBtYXJnaW5Ub3A6IDAsXG59O1xuXG5jb25zdCBGb290ZXIgPSAoKSA9PiAoXG4gICAgPGRpdiBzdHlsZT17Y29udGFpbmVyU3R5bGV9PlxuICAgICAgey8qXG4gICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XG4gICAgICAgICAgPGE+SG9tZTwvYT5cbiAgICAgICAgPC9MaW5rPlxuICAgICAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XG4gICAgICAgICAgPGE+QWJvdXQhPC9hPlxuICAgICAgICA8L0xpbms+XG4gICAgICAqL31cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIGEge1xuICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCByZWQ7XG4gICAgICAgICAgICBwYWRkaW5nOiAwIDI1cHg7XG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgfVxuICAgICAgICAgIGE6aG92ZXIge1xuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyO1xuIl19 */\n/*@ sourceURL=components/Footer.js */'
+    })
   );
 };
 
@@ -192,7 +163,6 @@ var _default = Footer;
     return;
   }
 
-  reactHotLoader.register(linkStyle, 'linkStyle', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/Footer.js');
   reactHotLoader.register(containerStyle, 'containerStyle', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/Footer.js');
   reactHotLoader.register(Footer, 'Footer', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/Footer.js');
   reactHotLoader.register(_default, 'default', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/Footer.js');
@@ -259,10 +229,11 @@ var _default = Header;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-var _jsxFileName = '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js';
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom__ = __webpack_require__("./node_modules/react-dom/cjs/react-dom.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _jsxFileName = '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js';
 
 
 
@@ -281,7 +252,72 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+// See 'https://www.dropbox.com/s/ll8wqvsdmp2e6fp/RubysGame.svg?dl=0';
+var svgRubysGame = '/static/RubysGame.svg';
+
 var w = typeof window === 'undefined' ? {} : window;
+
+var Clickers = function Clickers(props) {
+  console.log('Clicker props', props);
+  var hairClicked = function hairClicked() {
+    console.log('hair was clicked ^_');
+    var el = Object(__WEBPACK_IMPORTED_MODULE_2_react_dom__["findDOMNode"])(props.svg);
+    //.getElementById('Shape');
+    console.log('el', el);
+  };
+  var faceClicked = function faceClicked() {
+    console.log('face was clicked ^_');
+  };
+  var clothesClicked = function clothesClicked() {
+    console.log('clothes were clicked ^_');
+  };
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+    'div',
+    {
+      className: 'jsx-1068878822' + ' ' + 'jsx-1068878822',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+      'div',
+      { id: 'clickers', className: 'jsx-1068878822' + ' ' + 'jsx-1068878822',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('div', { id: 'hair-clicker', onClick: hairClicked, className: 'jsx-1068878822' + ' ' + 'jsx-1068878822',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('div', { id: 'face-clicker', onClick: faceClicked, className: 'jsx-1068878822' + ' ' + 'jsx-1068878822',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+        'div',
+        { id: 'clothes-clicker', onClick: clothesClicked, className: 'jsx-1068878822' + ' ' + 'jsx-1068878822',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          }
+        },
+        'C'
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+      styleId: '1068878822',
+      css: '#clickers.jsx-1068878822{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;width:100%;height:100%;z-index:10;}#clickers.jsx-1068878822 div.jsx-1068878822{border:none;height:100%;width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvUnVieUJvb3RoLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThCb0IsQUFHMEIsQUFRRCxZQUNELFlBQ0EsV0FDYix1Q0FWd0IsOEVBQ0osa0JBQ1AsV0FDQyxZQUNELFdBQ2IiLCJmaWxlIjoiY29tcG9uZW50cy9SdWJ5Qm9vdGguanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hbmRlcnNvbi9Qcm9qZWN0cy9NYXJ0aWFuUm92ZXIvMjAxOC9SdWJ5WW91L3dlYiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGZpbmRET01Ob2RlIH0gZnJvbSAncmVhY3QtZG9tJztcblxuLy8gU2VlICdodHRwczovL3d3dy5kcm9wYm94LmNvbS9zL2xsOHdxdnNkbXAyZTZmcC9SdWJ5c0dhbWUuc3ZnP2RsPTAnO1xuY29uc3Qgc3ZnUnVieXNHYW1lID0gJy9zdGF0aWMvUnVieXNHYW1lLnN2Zyc7XG5cbmNvbnN0IHcgPSB0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJyA/IHt9IDogd2luZG93O1xuXG5jb25zdCBDbGlja2VycyA9IChwcm9wcykgPT4ge1xuICBjb25zb2xlLmxvZygnQ2xpY2tlciBwcm9wcycsIHByb3BzKTtcbiAgY29uc3QgaGFpckNsaWNrZWQgPSAoKSA9PiB7XG4gICAgY29uc29sZS5sb2coJ2hhaXIgd2FzIGNsaWNrZWQgXl8nKTtcbiAgICB2YXIgZWwgPSBmaW5kRE9NTm9kZShwcm9wcy5zdmcpO1xuICAgIC8vLmdldEVsZW1lbnRCeUlkKCdTaGFwZScpO1xuICAgIGNvbnNvbGUubG9nKCdlbCcsIGVsKTtcbiAgfVxuICBjb25zdCBmYWNlQ2xpY2tlZCA9ICgpID0+IHtcbiAgICBjb25zb2xlLmxvZygnZmFjZSB3YXMgY2xpY2tlZCBeXycpO1xuICB9XG4gIGNvbnN0IGNsb3RoZXNDbGlja2VkID0gKCkgPT4ge1xuICAgIGNvbnNvbGUubG9nKCdjbG90aGVzIHdlcmUgY2xpY2tlZCBeXycpO1xuICB9XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxkaXYgaWQ9J2NsaWNrZXJzJz5cbiAgICAgICAgPGRpdiBpZD0naGFpci1jbGlja2VyJyBvbkNsaWNrPXtoYWlyQ2xpY2tlZH0+PC9kaXY+XG4gICAgICAgIDxkaXYgaWQ9J2ZhY2UtY2xpY2tlcicgb25DbGljaz17ZmFjZUNsaWNrZWR9PjwvZGl2PlxuICAgICAgICA8ZGl2IGlkPSdjbG90aGVzLWNsaWNrZXInIG9uQ2xpY2s9e2Nsb3RoZXNDbGlja2VkfT5DPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgI2NsaWNrZXJzIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICB6LWluZGV4OiAxMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgI2NsaWNrZXJzIGRpdiB7XG4gICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICBoZWlnaHQ6MTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICk7XG59XG5cbmNsYXNzIFJ1YnlCb290aCBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIHRoaXMuc3RhdGUgPSB7IHdpZHRoOiAwLCBoZWlnaHQ6IDAgfTtcbiAgICB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMgPSB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMuYmluZCh0aGlzKTtcbiAgICB0aGlzLnN2ZyA9IG51bGw7XG4gIH1cblxuICBjb21wb25lbnREaWRNb3VudCgpIHtcbiAgICB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMoKTtcbiAgICB3LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHRoaXMudXBkYXRlV2luZG93RGltZW5zaW9ucyk7XG4gIH1cblxuICBjb21wb25lbnRXaWxsVW5tb3VudCgpIHtcbiAgICB3LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHRoaXMudXBkYXRlV2luZG93RGltZW5zaW9ucyk7XG4gIH1cblxuICB1cGRhdGVXaW5kb3dEaW1lbnNpb25zKCkge1xuICAgIHRoaXMuc2V0U3RhdGUoeyB3aWR0aDogdy5pbm5lcldpZHRoLCBoZWlnaHQ6IHcuaW5uZXJIZWlnaHQgfSk7XG4gIH1cblxuICBjbGlja0hhbmRsZXIgPSAoZSkgPT4ge1xuICAgIGNvbnNvbGUubG9nKCdlJywgZSk7XG4gIH07XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHNjcmVlbldpZHRoID0gdGhpcy5zdGF0ZS53aWR0aDtcbiAgICBjb25zdCBzY3JlZW5IZWlnaHQgPSB0aGlzLnN0YXRlLmhlaWdodDtcbiAgICBjb25zdCB3ID0gc2NyZWVuV2lkdGggKiAwLjg7XG4gICAgY29uc3QgaCA9IHNjcmVlbkhlaWdodCAqIDAuNztcbiAgICBjb25zdCBmcmFtZVdpZHRoID0gTWF0aC5taW4oaCwgdyk7XG4gICAgLy9jb25zdCBmcmFtZVdpZHRoID0gc2NyZWVuV2lkdGggKiAwLjk1O1xuICAgIGNvbnN0IG1hc2tSYWRpdXMgPSBmcmFtZVdpZHRoIC8gMi4wO1xuICAgIGNvbnN0IGN4ID0gKHNjcmVlbldpZHRoIC8gMi4wKTtcblxuICAgIGNvbnN0IHN2Z1N0eWxlID0ge1xuICAgICAgd2lkdGg6IGZyYW1lV2lkdGgsXG4gICAgICBwb3NpdGlvbjogJ3JlbGF0aXZlJyxcbiAgICAgIGxlZnQ6IGN4IC0gZnJhbWVXaWR0aCAvIDIsXG4gICAgICB0b3A6IC1mcmFtZVdpZHRoICogMC4xNSxcbiAgICAgIGJhY2tncm91bmQ6ICd0cmFuc3BhcmVudCcsXG4gICAgfVxuICAgIHJldHVybiAoXG4gICAgICA8ZGl2IHN0eWxlPXt7aGVpZ2h0OicxMDAlJ319PlxuICAgICAgICA8c2VjdGlvbj5cbiAgICAgICAgICA8Q2xpY2tlcnMgc3ZnPXt0aGlzLnN2Z30gLz5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nZ3V0cycgc3R5bGU9e3tiYWNrZ3JvdW5kOidub25lJ319PlxuICAgICAgICAgICAgPG9iamVjdCB0eXBlPSdpbWFnZS9zdmcreG1sJyBkYXRhPXtzdmdSdWJ5c0dhbWV9IHN0eWxlPXtzdmdTdHlsZX0gb25DbGljaz17dGhpcy5jbGlja0hhbmRsZXJ9XG4gICAgICAgICAgICAgIHJlZj17KG4pID0+IHsgdGhpcy5zdmcgPSBuOyB9IH0+XG4gICAgICAgICAgICAgIDxzdmcgd2lkdGg9e3NjcmVlbldpZHRofSBoZWlnaHQ9e21hc2tSYWRpdXMgKiAyLjB9PlxuICAgICAgICAgICAgICAgIDxkZWZzPlxuICAgICAgICAgICAgICAgICAgPGNsaXBQYXRoIGlkPSdjaXJjbGUtbWFzayc+XG4gICAgICAgICAgICAgICAgICAgIDxjaXJjbGVcbiAgICAgICAgICAgICAgICAgICAgICBjeD17Y3h9XG4gICAgICAgICAgICAgICAgICAgICAgY3k9e21hc2tSYWRpdXN9XG4gICAgICAgICAgICAgICAgICAgICAgcj17bWFza1JhZGl1c31cbiAgICAgICAgICAgICAgICAgICAgICBzdHJva2U9JyNlZmVmZWYnXG4gICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGg9JzEnXG4gICAgICAgICAgICAgICAgICAgICAgZmlsbD0nbm9uZSdcbiAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgIDwvY2xpcFBhdGg+XG4gICAgICAgICAgICAgICAgPC9kZWZzPlxuICAgICAgICAgICAgICA8L3N2Zz5cblxuICAgICAgICAgICAgICBZb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCBTVkdcbiAgICAgICAgICAgIDwvb2JqZWN0PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBzZWN0aW9uIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm1hc2sge1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5ndXRzIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvZGl2PlxuICAgIClcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBSdWJ5Qm9vdGg7XG4iXX0= */\n/*@ sourceURL=components/RubyBooth.js */'
+    })
+  );
+};
 
 var RubyBooth = function (_Component) {
   _inherits(RubyBooth, _Component);
@@ -291,8 +327,13 @@ var RubyBooth = function (_Component) {
 
     var _this = _possibleConstructorReturn(this, (RubyBooth.__proto__ || Object.getPrototypeOf(RubyBooth)).call(this, props));
 
+    _this.clickHandler = function (e) {
+      console.log('e', e);
+    };
+
     _this.state = { width: 0, height: 0 };
     _this.updateWindowDimensions = _this.updateWindowDimensions.bind(_this);
+    _this.svg = null;
     return _this;
   }
 
@@ -315,6 +356,8 @@ var RubyBooth = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
+      var _this2 = this;
+
       var screenWidth = this.state.width;
       var screenHeight = this.state.height;
       var w = screenWidth * 0.8;
@@ -333,67 +376,68 @@ var RubyBooth = function (_Component) {
       };
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         'div',
-        { style: { height: '100%' }, className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+        { style: { height: '100%' }, className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 43
+            lineNumber: 93
           }
         },
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
           'section',
           {
-            className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+            className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 44
+              lineNumber: 94
             }
           },
-          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('div', {
-            className: 'jsx-3237424453' + ' ' + ('jsx-3237424453' + ' ' + 'mask' || ''),
-            __source: {
+          __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(Clickers, { svg: this.svg, __source: {
               fileName: _jsxFileName,
-              lineNumber: 45
+              lineNumber: 95
             }
           }),
           __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
             'div',
-            { style: { background: 'none' }, className: 'jsx-3237424453' + ' ' + ('jsx-3237424453' + ' ' + 'guts' || ''),
+            { style: { background: 'none' }, className: 'jsx-1068878822' + ' ' + ('jsx-3237424453' + ' ' + 'guts' || ''),
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 47
+                lineNumber: 96
               }
             },
             __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
               'object',
-              { type: 'image/svg+xml', data: '/static/RubysGame.svg', style: svgStyle, className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+              { type: 'image/svg+xml', data: svgRubysGame, style: svgStyle, onClick: this.clickHandler,
+                ref: function ref(n) {
+                  _this2.svg = n;
+                }, className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 48
+                  lineNumber: 97
                 }
               },
               __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                 'svg',
-                { width: screenWidth, height: maskRadius * 2.0, className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+                { width: screenWidth, height: maskRadius * 2.0, className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 49
+                    lineNumber: 99
                   }
                 },
                 __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                   'defs',
                   {
-                    className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+                    className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 50
+                      lineNumber: 100
                     }
                   },
                   __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
                     'clipPath',
-                    { id: 'circle-mask', className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+                    { id: 'circle-mask', className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 51
+                        lineNumber: 101
                       }
                     },
                     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('circle', {
@@ -403,10 +447,10 @@ var RubyBooth = function (_Component) {
                       stroke: '#efefef',
                       strokeWidth: '1',
                       fill: 'none',
-                      className: 'jsx-3237424453' + ' ' + 'jsx-3237424453',
+                      className: 'jsx-1068878822' + ' ' + 'jsx-3237424453',
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 52
+                        lineNumber: 102
                       }
                     })
                   )
@@ -418,7 +462,7 @@ var RubyBooth = function (_Component) {
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
           styleId: '3237424453',
-          css: 'section.jsx-3237424453{position:relative;width:100%;height:100%;margin:0 auto;}.mask.jsx-3237424453{position:absolute;}.guts.jsx-3237424453{position:absolute;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvUnVieUJvb3RoLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1Fb0IsQUFHK0IsQUFPQSxBQUlBLGtCQVZQLEFBT2IsQUFJQSxXQVZjLFlBQ0UsY0FDaEIiLCJmaWxlIjoiY29tcG9uZW50cy9SdWJ5Qm9vdGguanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hbmRlcnNvbi9Qcm9qZWN0cy9NYXJ0aWFuUm92ZXIvMjAxOC9SdWJ5WW91L3dlYiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuY29uc3QgdyA9IHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnID8ge30gOiB3aW5kb3c7XG5cbmNsYXNzIFJ1YnlCb290aCBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIHRoaXMuc3RhdGUgPSB7IHdpZHRoOiAwLCBoZWlnaHQ6IDAgfTtcbiAgICB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMgPSB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMuYmluZCh0aGlzKTtcbiAgfVxuXG4gIGNvbXBvbmVudERpZE1vdW50KCkge1xuICAgIHRoaXMudXBkYXRlV2luZG93RGltZW5zaW9ucygpO1xuICAgIHcuYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgdGhpcy51cGRhdGVXaW5kb3dEaW1lbnNpb25zKTtcbiAgfVxuXG4gIGNvbXBvbmVudFdpbGxVbm1vdW50KCkge1xuICAgIHcucmVtb3ZlRXZlbnRMaXN0ZW5lcigncmVzaXplJywgdGhpcy51cGRhdGVXaW5kb3dEaW1lbnNpb25zKTtcbiAgfVxuXG4gIHVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMoKSB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IHdpZHRoOiB3LmlubmVyV2lkdGgsIGhlaWdodDogdy5pbm5lckhlaWdodCB9KTtcbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICBjb25zdCBzY3JlZW5XaWR0aCA9IHRoaXMuc3RhdGUud2lkdGg7XG4gICAgY29uc3Qgc2NyZWVuSGVpZ2h0ID0gdGhpcy5zdGF0ZS5oZWlnaHQ7XG4gICAgY29uc3QgdyA9IHNjcmVlbldpZHRoICogMC44O1xuICAgIGNvbnN0IGggPSBzY3JlZW5IZWlnaHQgKiAwLjc7XG4gICAgY29uc3QgZnJhbWVXaWR0aCA9IE1hdGgubWluKGgsIHcpO1xuICAgIC8vY29uc3QgZnJhbWVXaWR0aCA9IHNjcmVlbldpZHRoICogMC45NTtcbiAgICBjb25zdCBtYXNrUmFkaXVzID0gZnJhbWVXaWR0aCAvIDIuMDtcbiAgICBjb25zdCBjeCA9IChzY3JlZW5XaWR0aCAvIDIuMCk7XG5cbiAgICBjb25zdCBzdmdTdHlsZSA9IHtcbiAgICAgIHdpZHRoOiBmcmFtZVdpZHRoLFxuICAgICAgcG9zaXRpb246ICdyZWxhdGl2ZScsXG4gICAgICBsZWZ0OiBjeCAtIGZyYW1lV2lkdGggLyAyLFxuICAgICAgdG9wOiAtZnJhbWVXaWR0aCAqIDAuMTUsXG4gICAgICBiYWNrZ3JvdW5kOiAndHJhbnNwYXJlbnQnLFxuICAgIH1cbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBzdHlsZT17e2hlaWdodDonMTAwJSd9fT5cbiAgICAgICAgPHNlY3Rpb24+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J21hc2snPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdndXRzJyBzdHlsZT17e2JhY2tncm91bmQ6J25vbmUnfX0+XG4gICAgICAgICAgICA8b2JqZWN0IHR5cGU9J2ltYWdlL3N2Zyt4bWwnIGRhdGE9Jy9zdGF0aWMvUnVieXNHYW1lLnN2Zycgc3R5bGU9e3N2Z1N0eWxlfT5cbiAgICAgICAgICAgICAgPHN2ZyB3aWR0aD17c2NyZWVuV2lkdGh9IGhlaWdodD17bWFza1JhZGl1cyAqIDIuMH0+XG4gICAgICAgICAgICAgICAgPGRlZnM+XG4gICAgICAgICAgICAgICAgICA8Y2xpcFBhdGggaWQ9J2NpcmNsZS1tYXNrJz5cbiAgICAgICAgICAgICAgICAgICAgPGNpcmNsZVxuICAgICAgICAgICAgICAgICAgICAgIGN4PXtjeH1cbiAgICAgICAgICAgICAgICAgICAgICBjeT17bWFza1JhZGl1c31cbiAgICAgICAgICAgICAgICAgICAgICByPXttYXNrUmFkaXVzfVxuICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZT0nI2VmZWZlZidcbiAgICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aD0nMSdcbiAgICAgICAgICAgICAgICAgICAgICBmaWxsPSdub25lJ1xuICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPC9jbGlwUGF0aD5cbiAgICAgICAgICAgICAgICA8L2RlZnM+XG4gICAgICAgICAgICAgIDwvc3ZnPlxuXG4gICAgICAgICAgICAgIFlvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IFNWR1xuICAgICAgICAgICAgPC9vYmplY3Q+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvc2VjdGlvbj5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubWFzayB7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmd1dHMge1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFJ1YnlCb290aDtcbiJdfQ== */\n/*@ sourceURL=components/RubyBooth.js */'
+          css: 'section.jsx-3237424453{position:relative;width:100%;height:100%;margin:0 auto;}.mask.jsx-3237424453{position:absolute;}.guts.jsx-3237424453{position:absolute;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvUnVieUJvb3RoLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFIb0IsQUFHK0IsQUFPQSxBQUlBLGtCQVZQLEFBT2IsQUFJQSxXQVZjLFlBQ0UsY0FDaEIiLCJmaWxlIjoiY29tcG9uZW50cy9SdWJ5Qm9vdGguanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hbmRlcnNvbi9Qcm9qZWN0cy9NYXJ0aWFuUm92ZXIvMjAxOC9SdWJ5WW91L3dlYiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGZpbmRET01Ob2RlIH0gZnJvbSAncmVhY3QtZG9tJztcblxuLy8gU2VlICdodHRwczovL3d3dy5kcm9wYm94LmNvbS9zL2xsOHdxdnNkbXAyZTZmcC9SdWJ5c0dhbWUuc3ZnP2RsPTAnO1xuY29uc3Qgc3ZnUnVieXNHYW1lID0gJy9zdGF0aWMvUnVieXNHYW1lLnN2Zyc7XG5cbmNvbnN0IHcgPSB0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJyA/IHt9IDogd2luZG93O1xuXG5jb25zdCBDbGlja2VycyA9IChwcm9wcykgPT4ge1xuICBjb25zb2xlLmxvZygnQ2xpY2tlciBwcm9wcycsIHByb3BzKTtcbiAgY29uc3QgaGFpckNsaWNrZWQgPSAoKSA9PiB7XG4gICAgY29uc29sZS5sb2coJ2hhaXIgd2FzIGNsaWNrZWQgXl8nKTtcbiAgICB2YXIgZWwgPSBmaW5kRE9NTm9kZShwcm9wcy5zdmcpO1xuICAgIC8vLmdldEVsZW1lbnRCeUlkKCdTaGFwZScpO1xuICAgIGNvbnNvbGUubG9nKCdlbCcsIGVsKTtcbiAgfVxuICBjb25zdCBmYWNlQ2xpY2tlZCA9ICgpID0+IHtcbiAgICBjb25zb2xlLmxvZygnZmFjZSB3YXMgY2xpY2tlZCBeXycpO1xuICB9XG4gIGNvbnN0IGNsb3RoZXNDbGlja2VkID0gKCkgPT4ge1xuICAgIGNvbnNvbGUubG9nKCdjbG90aGVzIHdlcmUgY2xpY2tlZCBeXycpO1xuICB9XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxkaXYgaWQ9J2NsaWNrZXJzJz5cbiAgICAgICAgPGRpdiBpZD0naGFpci1jbGlja2VyJyBvbkNsaWNrPXtoYWlyQ2xpY2tlZH0+PC9kaXY+XG4gICAgICAgIDxkaXYgaWQ9J2ZhY2UtY2xpY2tlcicgb25DbGljaz17ZmFjZUNsaWNrZWR9PjwvZGl2PlxuICAgICAgICA8ZGl2IGlkPSdjbG90aGVzLWNsaWNrZXInIG9uQ2xpY2s9e2Nsb3RoZXNDbGlja2VkfT5DPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgI2NsaWNrZXJzIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICB6LWluZGV4OiAxMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgI2NsaWNrZXJzIGRpdiB7XG4gICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICBoZWlnaHQ6MTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICk7XG59XG5cbmNsYXNzIFJ1YnlCb290aCBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIHRoaXMuc3RhdGUgPSB7IHdpZHRoOiAwLCBoZWlnaHQ6IDAgfTtcbiAgICB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMgPSB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMuYmluZCh0aGlzKTtcbiAgICB0aGlzLnN2ZyA9IG51bGw7XG4gIH1cblxuICBjb21wb25lbnREaWRNb3VudCgpIHtcbiAgICB0aGlzLnVwZGF0ZVdpbmRvd0RpbWVuc2lvbnMoKTtcbiAgICB3LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHRoaXMudXBkYXRlV2luZG93RGltZW5zaW9ucyk7XG4gIH1cblxuICBjb21wb25lbnRXaWxsVW5tb3VudCgpIHtcbiAgICB3LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHRoaXMudXBkYXRlV2luZG93RGltZW5zaW9ucyk7XG4gIH1cblxuICB1cGRhdGVXaW5kb3dEaW1lbnNpb25zKCkge1xuICAgIHRoaXMuc2V0U3RhdGUoeyB3aWR0aDogdy5pbm5lcldpZHRoLCBoZWlnaHQ6IHcuaW5uZXJIZWlnaHQgfSk7XG4gIH1cblxuICBjbGlja0hhbmRsZXIgPSAoZSkgPT4ge1xuICAgIGNvbnNvbGUubG9nKCdlJywgZSk7XG4gIH07XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHNjcmVlbldpZHRoID0gdGhpcy5zdGF0ZS53aWR0aDtcbiAgICBjb25zdCBzY3JlZW5IZWlnaHQgPSB0aGlzLnN0YXRlLmhlaWdodDtcbiAgICBjb25zdCB3ID0gc2NyZWVuV2lkdGggKiAwLjg7XG4gICAgY29uc3QgaCA9IHNjcmVlbkhlaWdodCAqIDAuNztcbiAgICBjb25zdCBmcmFtZVdpZHRoID0gTWF0aC5taW4oaCwgdyk7XG4gICAgLy9jb25zdCBmcmFtZVdpZHRoID0gc2NyZWVuV2lkdGggKiAwLjk1O1xuICAgIGNvbnN0IG1hc2tSYWRpdXMgPSBmcmFtZVdpZHRoIC8gMi4wO1xuICAgIGNvbnN0IGN4ID0gKHNjcmVlbldpZHRoIC8gMi4wKTtcblxuICAgIGNvbnN0IHN2Z1N0eWxlID0ge1xuICAgICAgd2lkdGg6IGZyYW1lV2lkdGgsXG4gICAgICBwb3NpdGlvbjogJ3JlbGF0aXZlJyxcbiAgICAgIGxlZnQ6IGN4IC0gZnJhbWVXaWR0aCAvIDIsXG4gICAgICB0b3A6IC1mcmFtZVdpZHRoICogMC4xNSxcbiAgICAgIGJhY2tncm91bmQ6ICd0cmFuc3BhcmVudCcsXG4gICAgfVxuICAgIHJldHVybiAoXG4gICAgICA8ZGl2IHN0eWxlPXt7aGVpZ2h0OicxMDAlJ319PlxuICAgICAgICA8c2VjdGlvbj5cbiAgICAgICAgICA8Q2xpY2tlcnMgc3ZnPXt0aGlzLnN2Z30gLz5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nZ3V0cycgc3R5bGU9e3tiYWNrZ3JvdW5kOidub25lJ319PlxuICAgICAgICAgICAgPG9iamVjdCB0eXBlPSdpbWFnZS9zdmcreG1sJyBkYXRhPXtzdmdSdWJ5c0dhbWV9IHN0eWxlPXtzdmdTdHlsZX0gb25DbGljaz17dGhpcy5jbGlja0hhbmRsZXJ9XG4gICAgICAgICAgICAgIHJlZj17KG4pID0+IHsgdGhpcy5zdmcgPSBuOyB9IH0+XG4gICAgICAgICAgICAgIDxzdmcgd2lkdGg9e3NjcmVlbldpZHRofSBoZWlnaHQ9e21hc2tSYWRpdXMgKiAyLjB9PlxuICAgICAgICAgICAgICAgIDxkZWZzPlxuICAgICAgICAgICAgICAgICAgPGNsaXBQYXRoIGlkPSdjaXJjbGUtbWFzayc+XG4gICAgICAgICAgICAgICAgICAgIDxjaXJjbGVcbiAgICAgICAgICAgICAgICAgICAgICBjeD17Y3h9XG4gICAgICAgICAgICAgICAgICAgICAgY3k9e21hc2tSYWRpdXN9XG4gICAgICAgICAgICAgICAgICAgICAgcj17bWFza1JhZGl1c31cbiAgICAgICAgICAgICAgICAgICAgICBzdHJva2U9JyNlZmVmZWYnXG4gICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGg9JzEnXG4gICAgICAgICAgICAgICAgICAgICAgZmlsbD0nbm9uZSdcbiAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgIDwvY2xpcFBhdGg+XG4gICAgICAgICAgICAgICAgPC9kZWZzPlxuICAgICAgICAgICAgICA8L3N2Zz5cblxuICAgICAgICAgICAgICBZb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCBTVkdcbiAgICAgICAgICAgIDwvb2JqZWN0PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBzZWN0aW9uIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm1hc2sge1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5ndXRzIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvZGl2PlxuICAgIClcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBSdWJ5Qm9vdGg7XG4iXX0= */\n/*@ sourceURL=components/RubyBooth.js */'
         })
       );
     }
@@ -447,7 +491,9 @@ var _default = RubyBooth;
     return;
   }
 
+  reactHotLoader.register(svgRubysGame, 'svgRubysGame', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js');
   reactHotLoader.register(w, 'w', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js');
+  reactHotLoader.register(Clickers, 'Clickers', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js');
   reactHotLoader.register(RubyBooth, 'RubyBooth', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js');
   reactHotLoader.register(_default, 'default', '/Users/manderson/Projects/MartianRover/2018/RubyYou/web/components/RubyBooth.js');
   leaveModule(module);
@@ -3897,6 +3943,251 @@ module.exports = defineProperties;
 
 /***/ }),
 
+/***/ "./node_modules/fbjs/lib/EventListener.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+var emptyFunction = __webpack_require__("./node_modules/fbjs/lib/emptyFunction.js");
+
+/**
+ * Upstream version of event listener. Does not take into account specific
+ * nature of platform.
+ */
+var EventListener = {
+  /**
+   * Listen to DOM events during the bubble phase.
+   *
+   * @param {DOMEventTarget} target DOM element to register listener on.
+   * @param {string} eventType Event type, e.g. 'click' or 'mouseover'.
+   * @param {function} callback Callback function.
+   * @return {object} Object with a `remove` method.
+   */
+  listen: function listen(target, eventType, callback) {
+    if (target.addEventListener) {
+      target.addEventListener(eventType, callback, false);
+      return {
+        remove: function remove() {
+          target.removeEventListener(eventType, callback, false);
+        }
+      };
+    } else if (target.attachEvent) {
+      target.attachEvent('on' + eventType, callback);
+      return {
+        remove: function remove() {
+          target.detachEvent('on' + eventType, callback);
+        }
+      };
+    }
+  },
+
+  /**
+   * Listen to DOM events during the capture phase.
+   *
+   * @param {DOMEventTarget} target DOM element to register listener on.
+   * @param {string} eventType Event type, e.g. 'click' or 'mouseover'.
+   * @param {function} callback Callback function.
+   * @return {object} Object with a `remove` method.
+   */
+  capture: function capture(target, eventType, callback) {
+    if (target.addEventListener) {
+      target.addEventListener(eventType, callback, true);
+      return {
+        remove: function remove() {
+          target.removeEventListener(eventType, callback, true);
+        }
+      };
+    } else {
+      if (true) {
+        console.error('Attempted to listen to events during the capture phase on a ' + 'browser that does not support the capture phase. Your application ' + 'will not receive some events.');
+      }
+      return {
+        remove: emptyFunction
+      };
+    }
+  },
+
+  registerDefault: function registerDefault() {}
+};
+
+module.exports = EventListener;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/ExecutionEnvironment.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+
+
+
+var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+
+/**
+ * Simple, lightweight module assisting with the detection and context of
+ * Worker. Helps avoid circular dependencies and allows code to reason about
+ * whether or not they are in a Worker, even if they never include the main
+ * `ReactWorker` dependency.
+ */
+var ExecutionEnvironment = {
+
+  canUseDOM: canUseDOM,
+
+  canUseWorkers: typeof Worker !== 'undefined',
+
+  canUseEventListeners: canUseDOM && !!(window.addEventListener || window.attachEvent),
+
+  canUseViewport: canUseDOM && !!window.screen,
+
+  isInWorker: !canUseDOM // For now, this is true - might change in the future.
+
+};
+
+module.exports = ExecutionEnvironment;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/camelize.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+var _hyphenPattern = /-(.)/g;
+
+/**
+ * Camelcases a hyphenated string, for example:
+ *
+ *   > camelize('background-color')
+ *   < "backgroundColor"
+ *
+ * @param {string} string
+ * @return {string}
+ */
+function camelize(string) {
+  return string.replace(_hyphenPattern, function (_, character) {
+    return character.toUpperCase();
+  });
+}
+
+module.exports = camelize;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/camelizeStyleName.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+
+
+var camelize = __webpack_require__("./node_modules/fbjs/lib/camelize.js");
+
+var msPattern = /^-ms-/;
+
+/**
+ * Camelcases a hyphenated CSS property name, for example:
+ *
+ *   > camelizeStyleName('background-color')
+ *   < "backgroundColor"
+ *   > camelizeStyleName('-moz-transition')
+ *   < "MozTransition"
+ *   > camelizeStyleName('-ms-transition')
+ *   < "msTransition"
+ *
+ * As Andi Smith suggests
+ * (http://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix
+ * is converted to lowercase `ms`.
+ *
+ * @param {string} string
+ * @return {string}
+ */
+function camelizeStyleName(string) {
+  return camelize(string.replace(msPattern, 'ms-'));
+}
+
+module.exports = camelizeStyleName;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/containsNode.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * 
+ */
+
+var isTextNode = __webpack_require__("./node_modules/fbjs/lib/isTextNode.js");
+
+/*eslint-disable no-bitwise */
+
+/**
+ * Checks if a given DOM node contains or is another DOM node.
+ */
+function containsNode(outerNode, innerNode) {
+  if (!outerNode || !innerNode) {
+    return false;
+  } else if (outerNode === innerNode) {
+    return true;
+  } else if (isTextNode(outerNode)) {
+    return false;
+  } else if (isTextNode(innerNode)) {
+    return containsNode(outerNode, innerNode.parentNode);
+  } else if ('contains' in outerNode) {
+    return outerNode.contains(innerNode);
+  } else if (outerNode.compareDocumentPosition) {
+    return !!(outerNode.compareDocumentPosition(innerNode) & 16);
+  } else {
+    return false;
+  }
+}
+
+module.exports = containsNode;
+
+/***/ }),
+
 /***/ "./node_modules/fbjs/lib/emptyFunction.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3964,6 +4255,160 @@ module.exports = emptyObject;
 
 /***/ }),
 
+/***/ "./node_modules/fbjs/lib/focusNode.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+
+
+
+/**
+ * @param {DOMElement} node input/textarea to focus
+ */
+
+function focusNode(node) {
+  // IE8 can throw "Can't move focus to the control because it is invisible,
+  // not enabled, or of a type that does not accept the focus." for all kinds of
+  // reasons that are too expensive and fragile to test.
+  try {
+    node.focus();
+  } catch (e) {}
+}
+
+module.exports = focusNode;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/getActiveElement.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+/* eslint-disable fb-www/typeof-undefined */
+
+/**
+ * Same as document.activeElement but wraps in a try-catch block. In IE it is
+ * not safe to call document.activeElement if there is nothing focused.
+ *
+ * The activeElement will be null only if the document or document body is not
+ * yet defined.
+ *
+ * @param {?DOMDocument} doc Defaults to current document.
+ * @return {?DOMElement}
+ */
+function getActiveElement(doc) /*?DOMElement*/{
+  doc = doc || (typeof document !== 'undefined' ? document : undefined);
+  if (typeof doc === 'undefined') {
+    return null;
+  }
+  try {
+    return doc.activeElement || doc.body;
+  } catch (e) {
+    return doc.body;
+  }
+}
+
+module.exports = getActiveElement;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/hyphenate.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+var _uppercasePattern = /([A-Z])/g;
+
+/**
+ * Hyphenates a camelcased string, for example:
+ *
+ *   > hyphenate('backgroundColor')
+ *   < "background-color"
+ *
+ * For CSS style names, use `hyphenateStyleName` instead which works properly
+ * with all vendor prefixes, including `ms`.
+ *
+ * @param {string} string
+ * @return {string}
+ */
+function hyphenate(string) {
+  return string.replace(_uppercasePattern, '-$1').toLowerCase();
+}
+
+module.exports = hyphenate;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/hyphenateStyleName.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+
+
+var hyphenate = __webpack_require__("./node_modules/fbjs/lib/hyphenate.js");
+
+var msPattern = /^ms-/;
+
+/**
+ * Hyphenates a camelcased CSS property name, for example:
+ *
+ *   > hyphenateStyleName('backgroundColor')
+ *   < "background-color"
+ *   > hyphenateStyleName('MozTransition')
+ *   < "-moz-transition"
+ *   > hyphenateStyleName('msTransition')
+ *   < "-ms-transition"
+ *
+ * As Modernizr suggests (http://modernizr.com/docs/#prefixed), an `ms` prefix
+ * is converted to `-ms-`.
+ *
+ * @param {string} string
+ * @return {string}
+ */
+function hyphenateStyleName(string) {
+  return hyphenate(string).replace(msPattern, '-ms-');
+}
+
+module.exports = hyphenateStyleName;
+
+/***/ }),
+
 /***/ "./node_modules/fbjs/lib/invariant.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4021,6 +4466,136 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/isNode.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+/**
+ * @param {*} object The object to check.
+ * @return {boolean} Whether or not the object is a DOM node.
+ */
+function isNode(object) {
+  var doc = object ? object.ownerDocument || object : document;
+  var defaultView = doc.defaultView || window;
+  return !!(object && (typeof defaultView.Node === 'function' ? object instanceof defaultView.Node : typeof object === 'object' && typeof object.nodeType === 'number' && typeof object.nodeName === 'string'));
+}
+
+module.exports = isNode;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/isTextNode.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ */
+
+var isNode = __webpack_require__("./node_modules/fbjs/lib/isNode.js");
+
+/**
+ * @param {*} object The object to check.
+ * @return {boolean} Whether or not the object is a DOM text node.
+ */
+function isTextNode(object) {
+  return isNode(object) && object.nodeType == 3;
+}
+
+module.exports = isTextNode;
+
+/***/ }),
+
+/***/ "./node_modules/fbjs/lib/shallowEqual.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ * 
+ */
+
+/*eslint-disable no-self-compare */
+
+
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+/**
+ * inlined Object.is polyfill to avoid requiring consumers ship their own
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+ */
+function is(x, y) {
+  // SameValue algorithm
+  if (x === y) {
+    // Steps 1-5, 7-10
+    // Steps 6.b-6.e: +0 != -0
+    // Added the nonzero y check to make Flow happy, but it is redundant
+    return x !== 0 || y !== 0 || 1 / x === 1 / y;
+  } else {
+    // Step 6.a: NaN == NaN
+    return x !== x && y !== y;
+  }
+}
+
+/**
+ * Performs equality by iterating through keys on an object and returning false
+ * when any key has values which are not strictly equal between the arguments.
+ * Returns true when the values of all keys are strictly equal.
+ */
+function shallowEqual(objA, objB) {
+  if (is(objA, objB)) {
+    return true;
+  }
+
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
+    return false;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+
+  // Test for A's keys different from B.
+  for (var i = 0; i < keysA.length; i++) {
+    if (!hasOwnProperty.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+module.exports = shallowEqual;
 
 /***/ }),
 

@@ -1,21 +1,30 @@
 import Link from 'next/link';
 
-const linkStyle = {
-  padding: '0 25px',
-};
-
 const containerStyle = {
   marginTop: 0,
 };
 
 const Footer = () => (
     <div style={containerStyle}>
+      {/*
         <Link href="/">
-          <a style={linkStyle}>Home</a>
+          <a>Home</a>
         </Link>
         <Link href="/about">
-          <a style={linkStyle}>About</a>
+          <a>About!</a>
         </Link>
+      */}
+        <style jsx>{`
+          a {
+            display: block;
+            border: 1px solid red;
+            padding: 0 25px;
+            cursor: pointer;
+          }
+          a:hover {
+            text-decoration: none;
+          }
+        `}</style>
     </div>
 );
 
