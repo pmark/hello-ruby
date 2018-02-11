@@ -1,15 +1,59 @@
 import Header from './Header';
+import Footer from './Footer';
+
+// const globalStyle = {
+//   color: '#352E1B',
+//   font-family: '"Trade Gothic W01 Light","Helvetica","Arial",sans-serif',
+//   font-size: '18px',
+//   font-weight: 400,
+// }
+
+const colors = {
+  orange: '#F0744F',
+  yellow: '#F8A543',
+  magenta: '#C53569',
+};
 
 const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
+  margin: 0,
+  padding: 0,
+  height: '80%',
 };
 
 const Layout = (props) => (
   <div style={layoutStyle}>
     <Header />
     {props.children}
+    <Footer />
+    <style global jsx>{`
+      html, body, #__next {
+        height: 100%;
+      }
+      body {
+        background: #F7F7F0 url('https://www.callruby.com/wp-content/themes/callruby-theme/images/bg-texture-lines-blue-toponly.png') repeat-x top left;
+        font-family: "Trade Gothic W01 Light","Helvetica","Arial",sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #333;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      a,
+      a:active,
+      a:visited {
+        color: #352E1B;
+        text-decoration: underline;
+        font-size: 12px;
+        font-weigth: 300;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    `}</style>
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/432a0aab-68ae-4db9-b6c0-6967c8197479.js"></script>
   </div>
 );
 
