@@ -1,17 +1,19 @@
-export const layers = {
+const layers = {
   hair: [
-    ['Hair1'],
-    ['Hair2'],
-    ['Hair3a', 'Hair3b'],
+    '#Hair2',
+    '#Hair1',
+    '#Hair3a,#Hair3b',
   ],
 
-  face: [
-    ['Face1'],
-    ['Face2'],
+  body: [
+    '#Body1',
   ],
 
   clothes: [
-    ['Body1'],
-    ['Body2'],
+    '#Clothes3',
+    '#Clothes2',
+    '#Clothes1',
   ]
 };
+
+export default layers;

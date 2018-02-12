@@ -5,7 +5,7 @@
   * eyes
   * nose
 
-* color palletes
+* color palettes
   * Ruby colors for clothes
     * #C53167
     * #DE8C48

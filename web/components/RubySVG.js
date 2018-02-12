@@ -1,8 +1,21 @@
 import { Component } from 'react';
 import { findDOMNode } from 'react-dom';
+import {
+  makeButton,
+  nextHairShape,
+  nextBodyShape,
+  nextClothesShape,
+  nextHairColor,
+  nextBodyColor,
+  nextClothesColor,
+} from '../helpers/ruby-svg-util';
 
 // See 'https://www.dropbox.com/s/ll8wqvsdmp2e6fp/RubysGame.svg?dl=0';
 const svgRubysGame = '/static/RubysGame.svg';
+
+///////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////
 
 class RubySVG extends Component {
   constructor(props) {
@@ -10,10 +23,65 @@ class RubySVG extends Component {
     this.svg = null;
   }
 
+  state = {
+    hairShapeIndex: 0,
+    bodyShapeIndex: 0,
+    clothesShapeIndex: 0,
+    hairColorIndex: 0,
+    bodyColorIndex: 0,
+    clothesColorIndex: 0,
+  };
+
   componentDidMount() {
-    // var el = findDOMNode(this.props.svg);
-    // var shape = el && el.contentDocument.querySelector('#OtherShape')
-    // shape && shape.setAttribute('opacity', 0)
+    // Set up click handlers:
+    // hair buttons: shape, color
+    // body buttons: color
+    // clothes buttons: shape, color
+    makeButton(
+      this.svg,
+      '#Buttons #B1',
+      this.hairShapeClicked.bind(this),
+      this.hairColorClicked.bind(this));
+    makeButton(
+      this.svg,
+      '#Buttons #B2',
+      this.bodyShapeClicked.bind(this),
+      this.bodyColorClicked.bind(this));
+    makeButton(
+      this.svg,
+      '#Buttons #B3',
+      this.clothesShapeClicked.bind(this),
+      this.clothesColorClicked.bind(this));
+  }
+
+  hairShapeClicked() {
+    const hairShapeIndex = nextHairShape(this.svg, this.state.hairShapeIndex)
+    this.setState({ hairShapeIndex })
+  }
+
+  bodyShapeClicked() {
+    const bodyShapeIndex = nextBodyShape(this.svg, this.state.bodyShapeIndex)
+    this.setState({ bodyShapeIndex })
+  }
+
+  clothesShapeClicked() {
+    const clothesShapeIndex = nextClothesShape(this.svg, this.state.clothesShapeIndex)
+    this.setState({ clothesShapeIndex })
+  }
+
+  hairColorClicked() {
+    const hairColorIndex = nextHairColor(this.svg, this.state.hairColorIndex)
+    this.setState({ hairColorIndex })
+  }
+
+  bodyColorClicked() {
+    const bodyColorIndex = nextBodyColor(this.svg, this.state.bodyColorIndex)
+    this.setState({ bodyColorIndex })
+  }
+
+  clothesColorClicked() {
+    const clothesColorIndex = nextClothesColor(this.svg, this.state.clothesColorIndex)
+    this.setState({ clothesColorIndex })
   }
 
   render() {
