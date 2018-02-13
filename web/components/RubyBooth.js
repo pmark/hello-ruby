@@ -27,22 +27,31 @@ class RubyBooth extends Component {
   render() {
     return (
       <section>
-        <div className='guts'>
-          <RubySVG width={this.state.width} height={this.state.height} />
-        </div>
-      <style jsx>{`
-        section {
-          position: relative;
-          top: 70px;
-          width: 100%;
-          height: 100%;
-          margin: 0 auto;
-        }
-        .guts {
-          position: absolute;
-        }
-      `}</style>
-    </section>
+        <RubySVG width={this.state.width} height={this.state.height} />
+        <style jsx>{`
+          .footer {
+            width: 100%;
+            text-align: center;
+            border: 1px solid red;
+          }
+
+          .footer div {
+            margin: 0 auto;
+            text-align: left;
+          }
+
+          section {
+            width: 100%;
+            height: 100%;
+            margin: 35px auto 0;
+          }
+          .guts {
+            position: relative;
+          }
+          p {
+          }
+        `}</style>
+      </section>
     )
   }
 }

@@ -5,6 +5,7 @@ const palettes = {
     '#942327',
     '#D93E94',
     '#FFFBB6',
+    '#834c23',
   ],
 
   face: [

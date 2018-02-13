@@ -16,35 +16,37 @@ const svgDoc = (svg) => {
   return doc;
 };
 
+const clickHandler = (primaryCallback, secondaryCallback) => (evt) => {
+  const target = evt.target;
+  const parent = target.parentNode;
+
+  // If parent ID is 'C2' then secondary ID is 'C2b'
+  const isSecondary = target.id.replace(parent.id, '') === 'b';
+  if (isSecondary) {
+    secondaryCallback(target);
+  }
+  else {
+    primaryCallback(parent);
+  }
+};
+
+let currentClickHandler = null;
 export const makeButton = (svg, selector, primaryCallback, secondaryCallback) => {
-  // document.addEventListener('DOMContentLoaded', function(event) {
-    //console.log('\n\ndoc ready\n\n');
-    const element = svgDoc(svg).querySelector(selector);
-    if (!element) {
-      console.log('button element not found:', selector);
-      return;
-    }
+  const element = svgDoc(svg).querySelector(selector);
+  if (!element) {
+    console.log('button element not found:', selector);
+    return;
+  }
 
-    element.addEventListener('click', (evt) => {
-      const target = evt.target;
-      const parent = target.parentNode;
-
-      // If parent ID is 'C2' then secondary ID is 'C2b'
-      const isSecondary = target.id.replace(parent.id, '') === 'b';
-      if (isSecondary) {
-        secondaryCallback(target);
-      }
-      else {
-        primaryCallback(parent);
-      }
-    }
-  );
-  //});
+  if (currentClickHandler) {
+    element.removeEventListener('click', currentClickHandler);
+  }
+  currentClickHandler = clickHandler(primaryCallback, secondaryCallback);
+  element.addEventListener('click', currentClickHandler);
 }
 
 const nextShape = (svg, currentIndex, layer) => {
   try {
-    console.log('nextShape currentIndex', currentIndex);
     const doc = svgDoc(svg);
     const currentElements = doc.querySelectorAll(layer[currentIndex])
     currentElements.forEach(el => el.style.display = 'none')
@@ -103,4 +105,10 @@ export const initColors = (svg) => {
   nextHairColor(svg, palettes.hair.length-1);
   nextFaceColor(svg, palettes.face.length-1);
   nextClothesColor(svg, palettes.clothes.length-1);
+};
+
+export const initShapes = (svg) => {
+  nextHairShape(svg, layers.hair.length-1);
+  nextFaceShape(svg, layers.face.length-1);
+  nextClothesShape(svg, layers.clothes.length-1);
 };

@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Header from './Header';
 import Footer from './Footer';
 
@@ -17,14 +18,20 @@ const colors = {
 const layoutStyle = {
   margin: 0,
   padding: 0,
-  height: '80%',
+  height: '100%',
 };
 
 const Layout = (props) => (
-  <div style={layoutStyle}>
+  <div id='layout'>
+    <Head>
+      <title>Ruby You</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" key="viewport" />
+    </Head>
     <Header />
     {props.children}
-    <Footer />
+    {/*
+      <Footer />
+    */}
     <style global jsx>{`
       html, body, #__next {
         height: 100%;
@@ -39,6 +46,13 @@ const Layout = (props) => (
         text-align: center;
         margin: 0;
         padding: 0;
+      }
+
+      #layout {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
       }
 
       a,

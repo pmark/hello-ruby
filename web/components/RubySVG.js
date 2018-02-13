@@ -1,7 +1,9 @@
 import { Component } from 'react';
+import Footer from './Footer';
 // import { findDOMNode } from 'react-dom';
 import {
   initColors,
+  initShapes,
   makeButton,
   nextHairShape,
   nextFaceShape,
@@ -37,6 +39,7 @@ class RubySVG extends Component {
   componentDidMount() {
     // init hair, face, clothes with default colors
     initColors(this.svg);
+    initShapes(this.svg);
   }
 
   componentDidUpdate() {
@@ -107,8 +110,8 @@ class RubySVG extends Component {
   render() {
     const screenWidth = this.props.width;
     const screenHeight = this.props.height;
-    const w = screenWidth * 0.8;
-    const h = screenHeight * 0.7;
+    const w = screenWidth * 0.85;
+    const h = screenHeight * 0.5;
     const frameWidth = Math.min(h, w);
     const maskRadius = frameWidth / 2.0;
     const cx = (screenWidth / 2.0);
@@ -118,13 +121,11 @@ class RubySVG extends Component {
         <object type='image/svg+xml' data={svgRubysGame} ref={(n) => { this.svg = n; } }>
           Your browser does not support SVG
         </object>
+        <Footer />
         <style jsx>{`
           object {
             background: transparent;
-            position: relative;
             width: ${frameWidth}px;
-            left: ${cx - frameWidth / 2}px;
-            top: ${frameWidth * -0.15}px;
           }
         `}</style>
 
