@@ -7,7 +7,7 @@ const palettes = {
     '#FFFBB6',
   ],
 
-  body: [
+  face: [
     '#fbbd84',
     '#774f35',
   ],

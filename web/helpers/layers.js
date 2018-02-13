@@ -5,9 +5,13 @@ const layers = {
     '#Hair3a,#Hair3b',
   ],
 
-  body: [
+  face: [
     '#Face1',
     '#Face2',
+  ],
+
+  body: [
+    '#Body1',
   ],
 
   clothes: [

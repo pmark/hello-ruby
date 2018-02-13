@@ -4,10 +4,10 @@ import {
   initColors,
   makeButton,
   nextHairShape,
-  nextBodyShape,
+  nextFaceShape,
   nextClothesShape,
   nextHairColor,
-  nextBodyColor,
+  nextFaceColor,
   nextClothesColor,
 } from '../helpers/ruby-svg-util';
 
@@ -27,10 +27,10 @@ class RubySVG extends Component {
 
   state = {
     hairShapeIndex: 0,
-    bodyShapeIndex: 0,
+    faceShapeIndex: 0,
     clothesShapeIndex: 0,
     hairColorIndex: 0,
-    bodyColorIndex: 0,
+    faceColorIndex: 0,
     clothesColorIndex: 0,
   };
 
@@ -44,9 +44,6 @@ class RubySVG extends Component {
       console.log('---------- BUTTONS NOT READY ------------');
       this.makeButtons();
     }
-    else {
-      console.log('READY!!!!!!!!!!!!!!!!!!!!!!!!');
-    }
   }
 
   makeButtons() {
@@ -58,8 +55,8 @@ class RubySVG extends Component {
     makeButton(
       this.svg,
       '#Buttons #B2',
-      this.bodyShapeClicked.bind(this),
-      this.bodyColorClicked.bind(this));
+      this.faceChangerClicked.bind(this),
+      this.faceChangerClicked.bind(this));
     makeButton(
       this.svg,
       '#Buttons #B3',
@@ -72,9 +69,9 @@ class RubySVG extends Component {
     this.setState({ hairShapeIndex, ready: this.state.hairShapeIndex !== hairShapeIndex })
   }
 
-  bodyShapeClicked() {
-    const bodyShapeIndex = nextBodyShape(this.svg, this.state.bodyShapeIndex)
-    this.setState({ bodyShapeIndex, ready: this.state.bodyShapeIndex !== bodyShapeIndex })
+  faceShapeClicked() {
+    const faceShapeIndex = nextFaceShape(this.svg, this.state.faceShapeIndex)
+    this.setState({ faceShapeIndex, ready: this.state.faceShapeIndex !== faceShapeIndex })
   }
 
   clothesShapeClicked() {
@@ -87,14 +84,24 @@ class RubySVG extends Component {
     this.setState({ hairColorIndex, ready: this.state.hairColorIndex !== hairColorIndex })
   }
 
-  bodyColorClicked() {
-    const bodyColorIndex = nextBodyColor(this.svg, this.state.bodyColorIndex)
-    this.setState({ bodyColorIndex, ready: this.state.bodyColorIndex !== bodyColorIndex })
+  faceColorClicked() {
+    const faceColorIndex = nextFaceColor(this.svg, this.state.faceColorIndex)
+    this.setState({ faceColorIndex, ready: this.state.faceColorIndex !== faceColorIndex })
   }
 
   clothesColorClicked() {
     const clothesColorIndex = nextClothesColor(this.svg, this.state.clothesColorIndex)
     this.setState({ clothesColorIndex, ready: this.state.clothesColorIndex !== clothesColorIndex })
+  }
+
+  faceChangerClicked() {
+    const faceColorIndex = nextFaceColor(this.svg, this.state.faceColorIndex)
+    const faceShapeIndex = nextFaceShape(this.svg, this.state.faceShapeIndex)
+    this.setState({
+      faceColorIndex,
+      faceShapeIndex,
+      ready: this.state.faceShapeIndex !== faceShapeIndex,
+    });
   }
 
   render() {
