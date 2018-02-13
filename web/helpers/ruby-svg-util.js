@@ -10,10 +10,30 @@ const svgDoc = (svg) => {
   }
   var doc = parent.contentDocument;
   if (!doc) {
-    console.log('missing svg object', parent);
+    console.log('missing svg doc', parent);
     return {};
   }
+  if (typeof(doc.querySelector) !== 'function') {
+    console.log('doc is missing querySelector()', doc);
+  }
+  if (typeof(doc.querySelectorAll) !== 'function') {
+    console.log('doc is missing querySelectorAll()', doc);
+  }
   return doc;
+};
+
+export const svgDocIsReady = (svg) => {
+    try {
+      const element = svgDoc(svg).querySelector('#Buttons #B1');
+      if (element) {
+        //console.log('element', element.getAttribute('clickable'));
+      }
+      return !!element && element.getAttribute('clickable');
+    }
+    catch (err) {
+      console.log('svgDocIsReady err', err);
+      return false;
+    }
 };
 
 const clickHandler = (primaryCallback, secondaryCallback) => (evt) => {
@@ -43,6 +63,7 @@ export const makeButton = (svg, selector, primaryCallback, secondaryCallback) =>
   }
   currentClickHandler = clickHandler(primaryCallback, secondaryCallback);
   element.addEventListener('click', currentClickHandler);
+  element.setAttribute('clickable', true);
 }
 
 const nextShape = (svg, currentIndex, layer) => {

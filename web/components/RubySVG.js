@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Footer from './Footer';
 // import { findDOMNode } from 'react-dom';
 import {
+  svgDocIsReady,
   initColors,
   initShapes,
   makeButton,
@@ -24,6 +25,7 @@ class RubySVG extends Component {
   constructor(props) {
     super(props);
     this.svg = null;
+    this.buttonMakerTimeout = null;
   }
 
   state = {
@@ -42,13 +44,19 @@ class RubySVG extends Component {
   }
 
   componentDidUpdate() {
-    if (!this.state.ready) {
-      console.log('---------- BUTTONS NOT READY ------------');
-      this.makeButtons();
+    if (!svgDocIsReady(this.svg)) {
+      console.log('svg not ready');
+      if (this.buttonMakerTimeout) {
+        clearTimeout(this.buttonMakerTimeout);
+      }
+      this.buttonMakerTimeout = setTimeout(() => {
+        this.makeButtons();
+      }, 200);
     }
   }
 
   makeButtons() {
+    console.log('making buttons');
     makeButton(
       this.svg,
       '#Buttons #B1',
