@@ -1,5 +1,5 @@
 {
-  "name": "altitude",
+  "name": "hello-ruby",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
@@ -10,6 +10,9 @@
     "start": "next start",
     "export": "next export",
     "deploy": "cd out && now"
+  },
+  "now": {
+    "alias": "hello-ruby"
   },
   "keywords": [],
   "author": "",
