@@ -37,12 +37,6 @@ class RubySVG extends Component {
     clothesColorIndex: 0,
   };
 
-  componentDidMount() {
-    // init hair, face, clothes with default colors
-    initColors(this.svg);
-    initShapes(this.svg);
-  }
-
   componentDidUpdate() {
     if (!svgDocIsReady(this.svg)) {
       console.log('svg not ready');
@@ -50,6 +44,9 @@ class RubySVG extends Component {
         clearTimeout(this.buttonMakerTimeout);
       }
       this.buttonMakerTimeout = setTimeout(() => {
+        // init hair, face, clothes with default colors
+        initColors(this.svg);
+        initShapes(this.svg);
         this.makeButtons();
       }, 200);
     }

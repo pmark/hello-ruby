@@ -1,8 +1,8 @@
 const layers = {
   hair: [
+    '#Hair3a,#Hair3b',
     '#Hair2',
     '#Hair1',
-    '#Hair3a,#Hair3b',
   ],
 
   face: [
