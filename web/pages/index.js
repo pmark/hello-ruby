@@ -5,7 +5,6 @@ import RubyBooth from '../components/RubyBooth'
 
 export default () => (
   <Layout>
-    <h1>Ruby You</h1>
     <RubyBooth />
 
     <style jsx>{`

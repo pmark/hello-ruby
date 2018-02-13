@@ -6,7 +6,8 @@ const layers = {
   ],
 
   body: [
-    '#Body1',
+    '#Face1',
+    '#Face2',
   ],
 
   clothes: [
