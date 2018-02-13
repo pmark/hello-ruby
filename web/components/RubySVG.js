@@ -13,8 +13,7 @@ import {
   nextClothesColor,
 } from '../helpers/ruby-svg-util';
 
-// See 'https://www.dropbox.com/s/ll8wqvsdmp2e6fp/RubysGame.svg?dl=0';
-// const svgRubysGame = 'https://dl.dropboxusercontent.com/content_link/DgVwSECkWyCD4AyKBVwdxwWAe1uhTqhLwmfqTr1eKsCz5igdVcLOh5I2hNYHF2fr/file';
+// See https://www.dropbox.com/sh/4mphu8n829jei8j/AAC_P8f13HX-OSH7XPYUa5ZCa?dl=0&lst=
 const svgRubysGame = '/static/RubysGame.svg';
 
 ///////////////////////////////////////////////////////////////////////
